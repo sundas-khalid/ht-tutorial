@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form  action=""  method="get">
+        <fieldset>
+            <legend>personal  details </legend> <!--ya tag fieldset ka sath hi use hoga -->
+        <label form="name">Name</label>   
+       <input type="text" name="Name" placeholder="enter your  name ">
+        <br><br>
+        <label form="name">password</label>  
+          <input type="password" name="password"  placeholder="password">
+        <br><br>
+        <label form="name">gender</label>
+        <input type="radio" value="male"  name ="gender" id="male">  
+          <label form="male">Male</label> 
+           <input type="radio" value="female"  name="gender"  id="female">
+             <label form="female">Female</label> 
+             <br><br>
+        <label form="name">Hobbies</label>
+        <input type="checkbox" value="music"  name ="gender" id="male">  
+          <label form="male">music</label> 
+           <input type="checkbox" value="painting"  name="gender"  id="female">
+             <label form="female">painting</label> 
+             <br><br>
+             <label form="female">Message</label>
+             <textarea  rows="10" cols="50">project ideas </textarea>
+             <br><br>
+             <label form="country">country</label>
+             <select   name=""  size="1"  multiple>
+                <option selected>pakistan</option>
+                <option>paris</option>
+                <option>london</option>
+                <option>uk</option>
+                <option>india</option>
+             </select>
+             <br><br>
+             <select  >
+                <optgroup label="toyota ">
+                <option>pakistan</option>
+                <option>paris</option>
+                <option>london</option>
+                <option>uk</option>
+                <option>india</option>
+            </optgroup>
+            <optgroup label="inova ">
+                <option>pakistan</option>
+                <option>paris</option>
+                <option>london</option>
+                <option>uk</option>
+                <option>india</option>
+            </optgroup>
+             </select>
+             <br><br>
+             <label form="cars">cars</label><br>
+             <input list ="cars">
+             <datalist id ="cars ">
+                <option   value="inova">
+                <option value="duster">
+                <option value="cultus">
+                <option value="honda">
+                <option value="desire">
+             </datalist>
+             <br><br>
+         <label form=" file ">file upload</label>
+         <input type="file" name=""  accept="audio/*" ><!--accept  means jo file add karay ga wohi hogi or * means ka sab format ma accept ho jai gi -->
+       <br>
+         <input type="button" value="click">
+       <br>
+       <input type="submit" >
+       <br><br>
+       <input type="image" src="IMG-20240204-WA0028.jpg"  width="320px" height="230px">
+    </fieldset>
+    </form>
+</body>
+</html>
